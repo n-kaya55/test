@@ -12,7 +12,7 @@ def addStudent(isim,soyisim,vize,final):
     
 def printStudent():
     for student in ogrenciListesi:
-        print(student.bilgi())
+        student.bilgi()
         print(student.ortalamaHesaplama())
 
 def addTeacher(isim,soyisim,bolum,maas,zamOrani):
@@ -21,7 +21,7 @@ def addTeacher(isim,soyisim,bolum,maas,zamOrani):
 
 def printTeacher():
     for teacher in ogretmenListesi:
-        print(teacher.bilgi())
+        teacher.bilgi()
         print(f"zamli maas=", teacher.zamliMaas())
 
 
