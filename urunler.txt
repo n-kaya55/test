@@ -1,0 +1,4 @@
+
+Urun adi: kitap Urunun Fiyati: 150
+Urun adi: defter Urunun Fiyati: 80
+Urun adi: kalem Urunun Fiyati: 20

@@ -1,0 +1,4 @@
+nesibe kaya:100,50,42
+ismail kaya:50,60,70
+behiye kaya:70,90,89
+cinar turan turan:60,70,70

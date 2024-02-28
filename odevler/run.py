@@ -1,5 +1,5 @@
-from student import Student
-from teacher import Teacher
+from odevler.student import Student
+from odevler.teacher import Teacher
 
 ogrenciListesi=[]
 ogretmenListesi=[]
