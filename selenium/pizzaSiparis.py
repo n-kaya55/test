@@ -7,7 +7,7 @@ from selenium.webdriver.support.select import Select
 
 service = Service("./chromedriver")
 driver = webdriver.Chrome(service=service)
-driver.maximize_window()
+driver.maximize_window() 
 driver.get("https://tomspizzeria.herokuapp.com/")
 
 def siparisver():
@@ -63,9 +63,9 @@ assert ek == "Pizza üstü: zeytin, mantar"
 assert odeme == "Ödeme tipi: Nakit"
 assert tutar == "Tutar: 10 TL"
 
-driver.execute_script("window.scrollBy(0,150)", "")
+driver.execute_script("window.scrollBy(0,150)", "") #asagı kaydır
 time.sleep(2)
-driver.execute_script("window.scrollBy(0,-150)", "")
+driver.execute_script("window.scrollBy(0,-150)", "") #yukarı kaydır
 driver.save_screenshot("./sonuc.png")
 driver.quit()
 

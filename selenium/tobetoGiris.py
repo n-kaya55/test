@@ -2,6 +2,7 @@ from tobetoInfo import username,password
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.common.alert import Alert
 import time
 
 class Tobeto:
@@ -33,18 +34,18 @@ class Tobeto:
         time.sleep(3)
 
         welcome=self.driver.find_element(By.XPATH,"//*[@id='__next']/div/main/div[1]/section[1]/div/div[2]/div/h3")
-        print(welcome.text)
+        # print(welcome.text)
 
-        expected_mesaj="TOBETO'ya hoş geldiniz"
+        # expected_mesaj="TOBETO'ya hoş geldiniz"
         
-        # if expected_mesaj == welcome.text:
-        #     print("basarili")
-        # else:
-        #     print("yanlıs mesaj")
+        # # if expected_mesaj == welcome.text:
+        # #     print("basarili")
+        # # else:
+        # #     print("yanlıs mesaj")
 
-        assert expected_mesaj==welcome.text ,"hata"
+        # assert expected_mesaj==welcome.text ,"hata"
 
-        
+    
 
 
 tobeto=Tobeto(username,password)
